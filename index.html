@@ -431,13 +431,31 @@ const BIRTHDAY_TIME_UTC = Date.UTC(2026, 10, 6, 17, 0, 0); // 7 Nov 2026 00:00 W
 // Ganti nama file satu per satu di daftar ini sesuai file yang kamu upload.
 // Setiap posisi memakai file berbeda: 1-16 orbit, 17 surat, 18-25 galeri.
 const photoFiles = [
-  "cndl-1.webp", "cndl-2.jpg", "cndl-3.jpg", "cndl-16.jpeg",
-  "cndl-5.webp", "cndl-6.jpeg", "cndl-9.jpeg", "cndl-11.jpeg",
-  "cndl-7.jpeg", "cndl-12.jpeg", "cndl-14.jpeg", "cndl-10.jpeg",
-  "cndl-15.jpeg", "cndl-13.jpeg", "cndl-8.jpeg", "cndl-4.jpg",
-  "box-normal.jpg",
-  "hotel-batang.jpeg", "mirror-front.jpeg", "telaga-menjer.jpeg", "mirror-eska.jpeg",
-  "theater-selfie.jpeg", "sushi-lucu.jpeg", "selfie-cute.jpeg", "box-hug.jpg"
+  "cndl-1.webp",          // 01
+  "cndl-2.jpg",           // 02
+  "cndl-3.jpg",           // 03
+  "cndl-16.jpeg",         // 04
+  "cndl-5.webp",          // 05
+  "cndl-6.jpeg",          // 06
+  "cndl-9.jpeg",          // 07
+  "cndl-11.jpeg",         // 08
+  "cndl-7.jpeg",          // 09
+  "cndl-12.jpeg",         // 10
+  "cndl-14.jpeg",         // 11
+  "cndl-10.jpeg",         // 12
+  "cndl-15.jpeg",         // 13
+  "cndl-13.jpeg",         // 14
+  "cndl-8.jpeg",          // 15
+  "cndl-4.jpg",           // 16
+  "box-normal.jpg",       // 17 - foto surat
+  "hotel-batang.jpeg",    // 18
+  "mirror-front.jpeg",    // 19
+  "telaga-menjer.jpeg",   // 20
+  "mirror-eska.jpeg",     // 21
+  "theater-selfie.jpeg",  // 22
+  "sushi-lucu.jpeg",      // 23
+  "selfie-cute.jpeg",     // 24
+  "box-hug.jpg"           // 25
 ];
 const photoPath = (number) => `assets/${photoFiles[number - 1]}`;
 
